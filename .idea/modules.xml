@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctable/ctable.iml" filepath="$PROJECT_DIR$/ctable/ctable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member/member.iml" filepath="$PROJECT_DIR$/member/member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/merchant/merchant.iml" filepath="$PROJECT_DIR$/merchant/merchant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/more_model.iml" filepath="$PROJECT_DIR$/more_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechat/wechat.iml" filepath="$PROJECT_DIR$/wechat/wechat.iml" />
+    </modules>
+  </component>
+</project>
