@@ -14,7 +14,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 
 /**
- * @author  
+ * @author
  * @date 2017/11/14
  */
 @Configuration
