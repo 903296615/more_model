@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mmabj.ctable.mapper.MmabjMapper">
+
+<select id="selectmmabj" resultType="integer">
+    select id
+    from mmabj
+  </select>
+    <update id="inser">
+        update mmabj set number=number+1 where id=1
+    </update>
+</mapper>

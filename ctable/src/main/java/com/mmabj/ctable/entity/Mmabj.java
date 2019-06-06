@@ -8,8 +8,8 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-@Table(name="test")
-public class Test {
+@Table(name="mmabj")
+public class Mmabj {
     @Column(name="id",type = MySqlTypeConstant.INT,length = 11,isKey = true,isAutoIncrement = true)
     private Integer id;
 

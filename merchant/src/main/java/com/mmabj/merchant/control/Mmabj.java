@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/mm")
 public class Mmabj {
-/*    @Autowired
-    private MemberService memberService;*/
+    @Autowired
+    private MemberService memberService;
 
     @RequestMapping("/mmabj")
     public  String mm() {
-        String member ="gg";// memberService.member();
+        String member ="gg"+ memberService.member();
         return  "mmabjjmm"+member;
     }
 }

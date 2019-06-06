@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement(proxyTargetClass = true)
 @ComponentScan(basePackages = {"com.mmabj.ctable","com.gitee.sunchenbin.mybatis.actable.manager"})
-@MapperScan({"om.mmabj.ctable.**.mapper","com.gitee.sunchenbin.mybatis.actable.dao.**"})
+@MapperScan({"com.mmabj.ctable.mapper.**","com.gitee.sunchenbin.mybatis.actable.mapper.**"})
 public class ActableDemoApplication {
 
     public static void main(String[] args) {
