@@ -2,7 +2,8 @@ spring:
   # 使用druid数据源
   datasource:
     name: ctable
-    url: jdbc:mysql://localhost:3306/ctable?characterEncoding=utf8&useSSL=false&autoReconnect=true&serverTimezone=GMT
+#    url: jdbc:mysql://localhost:3306/ctable?characterEncoding=utf8&useSSL=false&autoReconnect=true&serverTimezone=GMT
+    url: jdbc:mysql://110b14cd.nat123.cc:3306/ctable?characterEncoding=utf8&useSSL=false&autoReconnect=true&serverTimezone=GMT
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
